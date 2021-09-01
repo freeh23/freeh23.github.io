@@ -11,6 +11,13 @@ body {
   flex-direction: column;
 }
 
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 li {
   color: #5d5d5d;
 }
@@ -30,7 +37,7 @@ li {
 }
 
 .menu {
-  width: 600px;
+  width: 100%;
   margin: auto;
 }
 
@@ -58,13 +65,14 @@ li {
 }*/
 
 .page {
-  width: 600px;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 5px 0 5px;
 }
 
 .article-list {
   list-style-type: none;
-
+  margin-bottom: 30px;
 }
 
 .article-list li {
@@ -72,7 +80,7 @@ li {
 }
 
 p {
-  margin: 10px 0 10px 0;
+  margin: 20px 0 10px 0;
   color: #5d5d5d;
 }
 
@@ -87,6 +95,7 @@ h2 {
 }
 
 picutres-container {
+  padding-top: 50px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -94,5 +103,13 @@ picutres-container {
 
 /* Desktop Styles */
 @media only screen and (min-width: 700px) {
+  .menu {
+    width: 40%;
+    margin: auto;
+  }
 
+  .page {
+    width: 40%;
+    margin: 0 auto;
+  }
 }
