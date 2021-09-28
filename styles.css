@@ -11,6 +11,8 @@ body {
   flex-direction: column;
 }
 
+ul { margin: 0; padding: 0; } /* Trying to reset ul for correct indentation */
+
 .center-image {
   display: block;
   margin-left: auto;
